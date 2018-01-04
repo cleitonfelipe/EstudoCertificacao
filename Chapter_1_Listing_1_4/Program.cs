@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Chapter_1_Listing_1_4
 {
+    /// <summary>
+    /// Paramdo uma thread
+    /// Neste código apresento uma boa prática para finalizar uma thread
+    /// </summary>
     class Program
     {
         public static void ThreadMethod(object o)

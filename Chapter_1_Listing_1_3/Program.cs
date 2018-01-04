@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Chapter_1_Listing_1_3
 {
+    /// <summary>
+    /// Utilizando o delegate ParameterizedThreadStart
+    /// Neste código utilizo um dos overload do construtor da classe Thread que recebe uma instancia do delegate ParameterizedThreadStart
+    /// Este overload auxilia em passar dados atraves do start do método da sua thread para outra thread que está em execução.
+    /// </summary>
     class Program
     {
         public static void ThreadMethod(object o)

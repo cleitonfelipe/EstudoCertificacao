@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Chapter_1_Listing_1_2
 {
+    /// <summary>
+    /// Usando thread em background
+    /// Neste código apresento a utilização de threads em background, para trabalhar com threads
+    /// é muito importante entender a diferença em threads que vão rodar em back ou foreground.
+    /// </summary>
     class Program
     {
         public static void ThreadMethod()
