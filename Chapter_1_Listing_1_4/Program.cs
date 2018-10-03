@@ -31,6 +31,7 @@ namespace Chapter_1_Listing_1_4
             t.Start();
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+
             stopped = true;
             t.Join();
         }

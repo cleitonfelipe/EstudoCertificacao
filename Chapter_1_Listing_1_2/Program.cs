@@ -24,7 +24,7 @@ namespace Chapter_1_Listing_1_2
             t.IsBackground = false;
             t.Start();
 
-            //Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }

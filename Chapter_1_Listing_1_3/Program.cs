@@ -12,9 +12,9 @@ namespace Chapter_1_Listing_1_3
     {
         public static void ThreadMethod(object o)
         {
-            for (int i = 0; i < (int)o; i++)
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("ThreadProc: {0}", i);
+                Console.WriteLine($"ThreadProc: {i} + {o}");
                 Thread.Sleep(0);
             }
         }
@@ -22,7 +22,7 @@ namespace Chapter_1_Listing_1_3
         {
             Thread t = new Thread(new ParameterizedThreadStart(ThreadMethod));
             t.IsBackground = false;
-            t.Start(5);
+            t.Start("Cleiton");
             t.Join();
 
             Console.ReadKey();

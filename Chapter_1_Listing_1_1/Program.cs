@@ -32,7 +32,7 @@ namespace Chapter_1_Listing_1_1
 
             t.Join();
 
-            //Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }
