@@ -30,6 +30,8 @@ namespace Chapter_1_Listing_1_12
                     }
                 });
             finalTask.Wait();
+
+            Console.ReadKey();
         }
     }
 }
